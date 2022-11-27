@@ -183,10 +183,13 @@ class _HomePageState extends State<HomePage> {
                       const SizedBox(
                         height: 6,
                       ),
-                      Text(
-                        "Ready for an amazing and lucky experience 😻😽",
-                        style: kSourceSansProRegular.copyWith(
-                          fontSize: SizeConfig.blockSizeHorizontal! * 3.5,
+                      SizedBox(
+                        width: 200,
+                        child: Text(
+                          "Ready for an amazing and lucky experience 😻😽",
+                          style: kSourceSansProRegular.copyWith(
+                            fontSize: SizeConfig.blockSizeHorizontal! * 3.5,
+                          ),
                         ),
                       ),
                     ],
